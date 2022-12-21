@@ -8,7 +8,7 @@ sudo systemctl restart docker
 cd /root
 git clone https://github.com/CTFD/CTFd.git --depth=1
 cd CTFd/CTFd/plugins
-git clone https://hub.fastgit.org/VaalaCat/ctfd-whale.git --depth=1
+git clone https://github.com/VaalaCat/ctfd-whale.git --depth=1
 cd /root/CTFd
 mkdir conf/frp
 rm -rf docker-compose.yml
