@@ -6,7 +6,7 @@ docker node update --label-add='name=linux-1' $(docker node ls -q)
 sudo systemctl daemon-reload
 sudo systemctl restart docker
 cd /root
-git clone https://hub.fastgit.org/CTFD/CTFd.git --depth=1
+git clone https://github.com/CTFD/CTFd.git --depth=1
 cd CTFd/CTFd/plugins
 git clone https://hub.fastgit.org/VaalaCat/ctfd-whale.git --depth=1
 cd /root/CTFd
